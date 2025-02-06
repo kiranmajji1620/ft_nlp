@@ -1,0 +1,27 @@
+[project]
+name = "format-tools"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "None"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "env (>=0.1.0,<0.2.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "spackage (>=0.1,<0.2)",
+    "spackagekiran (>=0.1.0,<0.2.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.group.formatters.dependencies]
+black = "^25.1.0"
+isort = "^6.0.0"
+pylint = "^3.3.4"
+

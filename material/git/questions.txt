@@ -1,0 +1,20 @@
+What is git
+git vs git hub
+alternatives to git hub
+
+what is remote
+what is origin
+multiple remotes
+what is head
+multiple heads?
+difference between git clone and git fork
+remote repository in local machine?
+what is branch?
+local branch vs remote branch
+diverging in branch
+merge requests vs pull requests
+
+
+push
+what is git push
+common commands that go with git push

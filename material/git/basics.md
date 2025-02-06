@@ -1,0 +1,1 @@
+Origin : This is the default name for the remote repository. When you clone a repository, git assigns the name origin to remote repository.
