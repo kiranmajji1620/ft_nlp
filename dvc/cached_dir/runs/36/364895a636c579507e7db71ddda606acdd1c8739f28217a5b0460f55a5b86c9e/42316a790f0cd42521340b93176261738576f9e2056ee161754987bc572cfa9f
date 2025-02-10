@@ -1,0 +1,15 @@
+cmd: python3 src/evaluate.py
+deps:
+- path: model/model.joblib
+  hash: md5
+  md5: 85e6ff635a7f09f963c12dcf51321f1c
+  size: 1845689
+- path: src/evaluate.py
+  hash: md5
+  md5: b197277667d6269271fff4ae4af8a941
+  size: 645
+outs:
+- path: metrics/accuracy.json
+  hash: md5
+  md5: e1331678a89cb8438d5605a36f36ef8f
+  size: 32

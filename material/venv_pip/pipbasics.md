@@ -29,7 +29,7 @@
 - When a package is installed, pypi ensures all required dependencies are also installed.
 - `pip install pandas` to install pandas
 - `pip show pandas` to see dependencies before installing
-- `pip install --upgrade --no-cache-dir pandas` to resolve dependency conflicts.
+- `pip install --upgrade --no-cache-dir pandas` for fresh download instead of cached one
 - `pip install -r requirements.txt` to install consistent versions across different environments.
 
 
@@ -118,4 +118,4 @@
 - Ideal for active development, as it allows testing changes without interrupting workflow.
 
 #### difference between .whl and other formats
-- ![comparision](/assets/images/Pasted%20image%20(2).png)
+- ![comparision](/material/assets/images/Pasted%20image%20(2).png)

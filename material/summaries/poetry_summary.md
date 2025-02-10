@@ -3,6 +3,7 @@
 - `poetry.lock` : lock dependencies -> replicate exact environment and reproducibility, built using .toml file
 - `pyproject.toml` : setup tool -> contains possible package version dependencies, build systems -> used to build .lock file
 - lock file has both direct and indirect dependencies but toml file has only direct dependencies.
+
 #### Commands
 - `pipx upgrade poetry`
 - `poetry config --list`
@@ -32,7 +33,6 @@
 - `poetry export --output requirements.txt`
 - `poetry export --output requirements.txt --with dev, test`
 - `poetry export --output requirements.txt --only dev, test`
-- ``
 
 #### Virtual management
 - doesn't create right away

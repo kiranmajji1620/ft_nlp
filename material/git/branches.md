@@ -3,21 +3,8 @@
 - Go to that branch `git checkout <branch name>`
 - Create and go to that branch `git checkout -b <branch name>`  
 
-
-
 ### Remote Tracking Branches
 - These track the latest commits in the remote repositories branches.
-
-
-
-
-#### How to switch to feature1 branch from main branch
-- When cloned, your local branch is created as the copy of remote repo's main branch and it tracks the remote changes. meaning git pull and git push work 
-- If you want to work on feature1 branch instead of main branch, 
-    - create a new local branch `git checkout -b feature1 origin/feature1`
-    - This means that we created a local branch named feature1 which tracks the remote branch origin/feature1.
-    - Now, stay in local feature1 branch and git pull and git push work seamlessly.
-    - git push origin feature1
 
 
 #### How to push a branch to remote repository

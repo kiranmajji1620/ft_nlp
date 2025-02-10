@@ -52,6 +52,7 @@ def test_f():
     assert f() == 4
 ```
 - If this assertion fails, you will see the return value of the function call and introspection.
+- `pytest test_math_utils.py --junitxml=report.xml` will generate a report and store it in .xml format
 
 #### Assertion introspection:
 ```python

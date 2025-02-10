@@ -10,7 +10,7 @@
 - `conda activate myenv`
 - `conda deactivate`
 - `conda env list`
-- `conda remove --name myenv -all` delete the environment and also remove all packages associated with it.
+- `conda remove --name myenv --all` delete the environment and also remove all packages associated with it.
 
 
 #### Managing packages

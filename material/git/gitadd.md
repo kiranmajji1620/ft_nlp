@@ -16,7 +16,7 @@
 - stages file1
 
 #### `git add .`
-- stages all changes in current directory.
+- stages modifications, new files in current directory.
 
 #### `git add -A`
 stages all changes including new files, modified files, deletions
