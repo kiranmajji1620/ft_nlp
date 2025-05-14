@@ -10,3 +10,5 @@
 - the expected location is `/home/sai-tt0670/.local/pipx/venvs/poetry`
 - and path is in `/home/sai-tt0670/.local/bin`
 -  ensure pipx configured the path correctly using `pipx ensurepath`
+
+- Scrolling in linux terminal : ctrl + shift + up/down
