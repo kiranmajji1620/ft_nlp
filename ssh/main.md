@@ -26,7 +26,7 @@ Host <machine2>
 - generate a public key and send that public key to the remote machine 
 - generate key using `ssh-key-gen`. give the passphrase.
 - Now, say `ssh-copy-id username@hostname`. give the previously given passphrase.
-- this will copy the public id to the remote machine.
+- this will copy the public id to the remote machine: .ssh/authorized_keys.
 
 ```
 Host <machine1>
@@ -41,4 +41,11 @@ Host <machine2>
 ```
 
 ## Automating connecting to proxy machine
-- Copy the proxy machine key to the remote machine. 
+- Using the below commands, we can directly login to the remote machine without password.
+- We are copying the local machine public key to the remote machine via proxy.
+- Even though we tunnel through the proxy machine, the ssh client will be local machine only. so the local machine public key is to be pasted in remote machine.
+- we are reading the local machine public key and then appending it in to the remote machine.
+```
+ssh -J proxy_user@proxy_host remoteuser@remotehost "mkdir -p ~/.ssh && chmod 700 ~/.ssh"
+cat ~/.ssh/localkey.pub | ssh -J proxy_user@proxy_host remoteuser@remotehost "cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+```
